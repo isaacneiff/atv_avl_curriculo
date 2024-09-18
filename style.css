@@ -1,0 +1,107 @@
+/* RESET global */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin-block-end: 0;
+}
+
+
+#header {
+    background-color: blue;
+    height: 300px;
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+
+
+}
+
+#container {
+    background-color: rgb(218, 237, 192);
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 100px 0px 100px;
+
+}
+
+.content {
+
+    background-color: rgb(204, 204, 204);
+    width: 900px;
+    height: auto;
+    font-family: "Inter", sans-serif;
+    padding: 1px;
+}
+
+.content h2 {
+    margin-top: 10px;
+    color: blue;
+    font-family: "Inter bold", sans-serif;
+    font-size: 50px;
+}
+
+.content h3 {
+    margin-top: 10px;
+    color: blue;
+    font-family: "Inter bold", sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.hr_ {
+    color: blue;
+}
+
+
+#Header_pic img {
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+}
+
+
+#header h1 {
+    padding-right: 500px;
+    color: white;
+    font-family: "Inter bold", sans-serif;
+    font-size: 50px;
+}
+
+#header h4 {
+    padding-left: 100px;
+    color: white;
+    font-family: "Inter bold", sans-serif;
+    font-size: 20px;
+}
+
+.infos_ {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+
+
+}
