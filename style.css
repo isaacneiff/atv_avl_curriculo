@@ -25,7 +25,7 @@ dd {
 /*formatação do header do curriculo*/
 
 #header {
-    background-color: blue;
+    background-color: rgb(94, 29, 164);
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -39,11 +39,12 @@ dd {
     border-radius: 150px;
     width: 250px;
     height: 250px;
+    border: 1px black solid;
 
 }
 
 .title {
-    margin: 10px;
+    margin: 8px;
 
 }
 
@@ -62,7 +63,7 @@ dd {
 }
 
 .info {
-    margin-right: 120px;
+    margin-right: 150px;
     font-family: 'inter', sans-serif;
     color: white;
     font-size: 15px;
@@ -72,7 +73,7 @@ dd {
 }
 
 .info a {
-    margin-right: 120px;
+    margin-right: 150px;
     font-family: 'inter', sans-serif;
     color: white;
     font-size: 15px;
@@ -83,10 +84,10 @@ dd {
 
 }
 
-/*formatação do conteudo do curriculo*/
+/*formatação do corpo do curriculo*/
 
 #container {
-    background-color: rgb(218, 238, 255);
+    background-color: rgb(248, 233, 255);
     width: 1000px;
     height: auto;
     margin: 0 auto;
@@ -98,6 +99,8 @@ dd {
     padding-right: 100px;
 }
 
+/*formatação do conteudo do curriculo*/
+
 #content {
 
     background-color: rgb(255, 255, 255);
@@ -108,19 +111,19 @@ dd {
 
 #content h1 {
 
-    color: blue;
+    color: rgb(94, 29, 164);
     font-family: 'inter-bold', sans-serif;
     font-size: 50px;
 }
 
 #content h2 {
-    color: blue;
+    color: rgb(94, 29, 164);
     font-family: 'inter-bold', sans-serif;
     font-size: 30px;
 }
 
 hr {
-    color: blue;
+    color: rgb(128, 0, 255);
 }
 
 
@@ -133,31 +136,34 @@ hr {
 }
 
 #side h2 {
-    color: blue;
+    color: rgb(94, 29, 164);
     font-size: 25px;
     font-family: 'inter', sans-serif;
 }
 
 #side h3 {
 
-    color: blue;
+    color: rgb(94, 29, 164);
     font-size: 20px;
     font-family: 'inter', sans-serif;
 
 }
 
 #side h4 em {
-    color: blue;
+    color: rgb(94, 29, 164);
     font-family: 'inter', sans-serif;
 }
 
 ul li {
-    color: blue;
+    color: rgb(94, 29, 164);
     font-family: 'inter', sans-serif;
     padding-right: 40px;
 }
 
-@media only screen and (max-width: 1080px) {
+
+/*formatação da responsividade do curriculo em disp, mobile*/
+
+@media only screen and (max-width: 980px) {
     #header {
         width: 90%;
         height: 250px;
@@ -170,6 +176,22 @@ ul li {
 
     #content {
         width: 100%;
+    }
+
+    .img img {
+
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+
+    }
+
+    .info {
+        font-size: 15px;
+        width: 20vw;
+        height: 5%;
+        text-align: space-around;
+
     }
 }
 
@@ -184,7 +206,7 @@ ul li {
     }
 
     .info {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     #side h2 {
@@ -220,6 +242,14 @@ ul li {
     ul li {
         padding-right: 0;
     }
+
+    .img img {
+
+        width: 20vw;
+        height: 20vh;
+        margin: 10px;
+
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -232,7 +262,7 @@ ul li {
     }
 
     .info {
-        font-size: 12px;
+        font-size: 09px;
     }
 
     #side h2 {
@@ -246,4 +276,13 @@ ul li {
     #side h4 em {
         font-size: 14px;
     }
+
+    .img img {
+
+        width: 30vw;
+        height: 20vh;
+        margin: 05px;
+
+    }
+
 }
