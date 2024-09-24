@@ -25,12 +25,13 @@ dd {
 /*formatação do header do curriculo*/
 
 #header {
-    background-color: rgb(94, 29, 164);
+    background-color: rgb(3, 83, 255);
     margin: 0 auto;
     display: flex;
     align-items: center;
     width: 1000px;
     height: 300px;
+    box-shadow: 0px 02px 02px rgb(147, 146, 146);
 
 }
 
@@ -87,7 +88,7 @@ dd {
 /*formatação do corpo do curriculo*/
 
 #container {
-    background-color: rgb(248, 233, 255);
+    background-color: rgba(70, 89, 214, 0.628);
     width: 1000px;
     height: auto;
     margin: 0 auto;
@@ -105,25 +106,28 @@ dd {
 
     background-color: rgb(255, 255, 255);
     width: 900px;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 5px;
 
 }
 
 
 #content h1 {
 
-    color: rgb(94, 29, 164);
+    color: blue;
     font-family: 'inter-bold', sans-serif;
     font-size: 50px;
 }
 
 #content h2 {
-    color: rgb(94, 29, 164);
+    color: blue;
     font-family: 'inter-bold', sans-serif;
     font-size: 30px;
 }
 
 hr {
-    color: rgb(128, 0, 255);
+    color: rgb(144, 0, 255);
 }
 
 
@@ -136,26 +140,26 @@ hr {
 }
 
 #side h2 {
-    color: rgb(94, 29, 164);
+    color: blue;
     font-size: 25px;
     font-family: 'inter', sans-serif;
 }
 
 #side h3 {
 
-    color: rgb(94, 29, 164);
+    color: blue;
     font-size: 20px;
     font-family: 'inter', sans-serif;
 
 }
 
 #side h4 em {
-    color: rgb(94, 29, 164);
+    color: blue;
     font-family: 'inter', sans-serif;
 }
 
 ul li {
-    color: rgb(94, 29, 164);
+    color: blue;
     font-family: 'inter', sans-serif;
     padding-right: 40px;
 }
